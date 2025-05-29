@@ -1,0 +1,161 @@
+{
+  "dataset_metadata": {
+    "version": "3.2.1",
+    "extracted": "2023-11-20T14:30:00Z",
+    "source": "LinkedIn, ZoomInfo, Company Websites"
+  },
+  "contacts": [
+    {
+      "contact_id": "b2b_contact_789456",
+      "identity": {
+        "name": {
+          "first": "Sarah",
+          "last": "Johnson",
+          "display": "Sarah J. (TechLead)"
+        },
+        "demographics": {
+          "location": {
+            "city": "San Francisco",
+            "state": "CA",
+            "country": "USA",
+            "timezone": "PST"
+          }
+        }
+      },
+      "digital_footprint": {
+        "emails": [
+          {
+            "address": "sarah.johnson@techcorp.ai",
+            "type": "work",
+            "domain": "techcorp.ai",
+            "verification": {
+              "status": "verified",
+              "last_checked": "2023-10-15"
+            }
+          },
+          {
+            "address": "sjohnson.personal@gmail.com",
+            "type": "personal",
+            "domain": "gmail.com"
+          }
+        ],
+        "social": {
+          "linkedin": {
+            "url": "linkedin.com/in/sarahj-tech",
+            "connections": 850,
+            "last_active": "2023-11-10T09:23:45Z"
+          }
+        }
+      },
+      "professional": {
+        "current": {
+          "company": {
+            "name": "TechCorp AI Solutions",
+            "domain": "techcorp.ai",
+            "industry": {
+              "primary": "Artificial Intelligence",
+              "secondary": ["Machine Learning", "Cloud Computing"]
+            },
+            "employee_count": "1001-5000",
+            "tech_stack": ["Python", "TensorFlow", "AWS"]
+          },
+          "position": {
+            "title": "Director of Machine Learning Engineering",
+            "level": "L6",
+            "department": "Engineering",
+            "start_date": "2021-04-01",
+            "management": {
+              "scope": "team",
+              "reports": 12,
+              "reports_to": "VP of AI"
+            }
+          }
+        },
+        "history": [
+          {
+            "company": "DataInnovations Inc.",
+            "position": "Senior ML Engineer",
+            "duration_months": 28
+          }
+        ]
+      },
+      "engagement": {
+        "email_response_rate": 0.42,
+        "last_contacted": "2023-11-05T14:30:00Z"
+      }
+    },
+    {
+      "contact_id": "b2b_contact_789457",
+      "identity": {
+        "name": {
+          "first": "Michael",
+          "last": "Chen",
+          "display": "Michael C. (CMO)"
+        },
+        "demographics": {
+          "location": {
+            "city": "New York",
+            "state": "NY",
+            "country": "USA",
+            "timezone": "EST"
+          }
+        }
+      },
+      "digital_footprint": {
+        "emails": [
+          {
+            "address": "michael.chen@healthtech.org",
+            "type": "work",
+            "domain": "healthtech.org",
+            "verification": {
+              "status": "pending",
+              "last_checked": "2023-09-01"
+            }
+          }
+        ],
+        "social": {
+          "twitter": {
+            "handle": "@michaelhealthtech",
+            "followers": 3200
+          }
+        }
+      },
+      "professional": {
+        "current": {
+          "company": {
+            "name": "HealthTech Innovations",
+            "domain": "healthtech.org",
+            "industry": {
+              "primary": "Healthcare Technology",
+              "secondary": ["SaaS", "Medical Devices"]
+            },
+            "employee_count": "501-1000",
+            "tech_stack": ["JavaScript", "React", "Node.js"]
+          },
+          "position": {
+            "title": "Chief Marketing Officer",
+            "level": "C-Level",
+            "department": "Marketing",
+            "start_date": "2019-07-15",
+            "management": {
+              "scope": "department",
+              "reports": 32,
+              "reports_to": "CEO"
+            }
+          }
+        }
+      },
+      "engagement": {
+        "email_response_rate": 0.18,
+        "last_contacted": "2023-10-22T11:15:00Z"
+      }
+    }
+  ],
+  "statistics": {
+    "total_contacts": 2456789,
+    "domains": {
+      "unique_count": 187654,
+      "top_domains": ["gmail.com", "outlook.com", "company-specific.com"]
+    }
+  }
+}

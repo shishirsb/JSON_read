@@ -5,7 +5,7 @@ techcorp = []
 healthcare = []
 
 def process_file():
-    with open('json_data', 'rb') as f:
+    with open('sample_json_data', 'rb') as f:
         for item in ijson.items(f, 'contacts.item'):
             if item["digital_footprint"]["emails"][0]["domain"] == "techcorp.ai":
                 techcorp.append(
@@ -27,12 +27,12 @@ process_file()
 print(techcorp)
 print(healthcare)
 
-with open('csv_file_techcorp', 'w', newline = '', encoding='utf-8') as file:
+with open('csv_file_Techcorp', 'w', newline ='', encoding='utf-8') as file:
     writer = csv.writer(file)
     for item in techcorp:
         writer.writerow(item)
 
-with open('csv_file_HT', 'w', newline='', encoding='utf-8') as file:
+with open('csv_file_Healthcare', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     for item in healthcare:
         writer.writerow(item)
